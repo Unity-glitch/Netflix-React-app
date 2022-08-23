@@ -1,0 +1,514 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+button{
+  cursor: pointer;
+  text-decoration: none;
+}
+input{
+  text-decoration: none;
+}
+body {
+  background-color: rgb(76, 76, 76);
+  direction: ltr;
+  transition: 1s;
+}
+.container {
+  background: url(https://assets.nflxext.com/ffe/siteui/vlv3/c8c8a0ad-86d6-45f1-b21d-821afa4e5027/8fc4213b-7fe2-4821-92d2-78ed5238b14d/NG-en-20220801-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95vw;
+}
+
+.Logo__Text {
+  width: 150px;
+  margin-left: 10px;
+}
+.Login__Button {
+  color: #fff;
+  background-color: #e50914;
+  padding: 10px 18px;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+.login__Bbtn{
+  margin-left: -10px;
+}
+
+/* ALL HERO CONTENTS  */
+.hero {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero__Content {
+  color: white;
+  max-width: 900px;
+  text-align: center;
+}
+.hero__Title {
+  font-size: 50px;
+  text-align: center;
+}
+.hero__Description1 {
+  padding-top: 10px;
+}
+.hero__Description2 {
+  padding-top: 20px;
+}
+.hero__input_email {
+  /* max-width: 800px; */
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.Hero__Input{
+  background-color: white;
+  padding: 14px 20px;
+  border: none;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 70px;
+  width: 400px;
+  margin-left: -1px;
+  margin-left: 80px;
+}
+.email__btn{
+  background-color: #e50914;
+  padding: 27.5px 50px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  margin-top: -35px;
+  margin-left: -275px;
+}
+/* .right__arrow__icon{
+  width: 10px;
+  position: absolute;
+  
+} */
+
+/* ALL CONTAINER 2  */
+.container2 {
+  background-color: black;
+  margin-top: 10px;
+  height: 70vh;
+  display: flex;
+  align-self: center;
+  flex-wrap: wrap;
+}
+.section__left {
+  color: white;
+  padding-top: 200px;
+  padding-left: 100px;
+}
+.section__header__left {
+  font-size: 50px;
+  padding: 15px;
+}
+.section__description__left {
+  font-size: 26px;
+  padding: 15px;
+}
+.video_gif {
+  z-index: 1;
+}
+
+.Netflix__video__gif {
+  width: 370px;
+  margin-top: 135px;
+  margin-left: 60px;
+}
+video{
+  object-fit: contain;
+}
+.gif__video_1{
+  width: 500px;
+  position: absolute;
+  z-index: 3;
+  margin-top: 60px;
+}
+
+/* ALL CONTAINER 3  */
+.container3 {
+  background-color: black;
+  margin-top: 10px;
+  height: 72vh;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+}
+.section__right {
+  color: white;
+  padding-top: 200px;
+  padding-left: 100px;
+}
+.left__video{
+  margin-left: 100px;
+}
+.phone__image__left{
+  width: 550px;
+  margin-top: -90px;
+  z-index: 2;
+}
+.small__phone__image__left{
+  width: 200px;
+}
+.phone__image{
+  display: flex;
+  margin: 10px;
+}
+.small__phone__image{
+  border: 2px solid silver;
+  border-radius: 10px;
+  z-index: 4;
+  margin-top: -170px;
+  margin-left: 60px;
+  position: absolute;
+  background-color: black;
+}
+.movie__description{
+  padding-top: 25px;
+  padding-left: 20px;
+  line-height: 30px;
+}
+.Phone__image__style{
+  display: flex;
+  align-items: center;
+}
+.movie__title{
+  color: white;
+}
+.movie_downloading{
+  color: rgb(19, 19, 255);
+}
+.small__phone__image__left{
+  width: 80px;
+}
+.loading__round__image{
+  width: 70px;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.loading__round{
+
+}
+
+.section__header__right {
+  font-size: 50px;
+  padding: 15px;
+}
+.section__right{
+  flex-wrap: wrap;
+  margin-top: -200px;
+}
+.section__description__right {
+  font-size: 26px;
+  padding: 15px;
+}
+
+/* ALL CONTAINER 4 */
+.container4 {
+  background-color: black;
+  margin-top: 10px;
+  height: 40vh;
+}
+.section__left2 {
+  color: white;
+  padding-left: 30px;
+  padding-top: 50px;
+}
+.section__header__left2 {
+  font-size: 50px;
+  padding: 15px;
+  /* width: 40vw; */
+}
+.section__description__left2 {
+  font-size: 26px;
+  padding: 15px;
+  /* width: 36vw; */
+}
+/* ALL CONTAINER 5 */
+.container5 {
+  background-color: black;
+  margin-top: 10px;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.section__header__right__2{
+  padding-left: 12px;
+}
+.section__right__2 {
+  color: white;
+  text-align: left;
+}
+.kids__image{
+  width: 500px;
+}
+/* FREQUENTLY ASKED QUESTIONS  */
+.container6 {
+  background-color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 100vh;
+}
+.FAQ {
+  padding-top: 20px;
+}
+.faq {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.accordion {
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+  padding: 25px;
+  width: 50%;
+  margin: 10px auto;
+  display: block;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 25px;
+  transition: 0.4s;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #444;
+  width: 50%;
+  margin: 0px auto;
+  overflow: hidden;
+  color: white;
+}
+
+      /* ALL FOOTER  */
+.Footer{
+  background-color: black;
+  margin-top: -70px;
+  margin-bottom: 10px;
+  height: 50vh;
+}
+.site-footer {
+        padding-top: 0;
+}
+.site-footer {
+      margin: 0 auto;
+      padding-top: 30px;
+      width: 90%;
+}
+a{
+  color: #737373;
+}
+a:hover{
+  color: #fff;
+}
+.site-footer-wrapper {
+  color: #737373;
+  font-size: 1em;
+  margin-top: 80px;
+  min-width: 190px;
+  padding-bottom: 20px;
+  position: relative;
+  width: 100%;
+}
+.footer-top {
+  margin: 0 0 30px;
+  padding: 0;
+}
+ul.structural {
+  margin: 0;
+  padding: 0;
+}
+.footer-links {
+  box-sizing: border-box;
+  font-size: 13px;
+  max-width: 1000px;
+}
+ul.structural>li {
+  list-style: none;
+  margin-left: 0;
+}
+.footer-link-item {
+  box-sizing: border-box;
+  display: inline-block;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  min-width: 100px;
+  padding: 0 12px 0 0;
+  vertical-align: top;
+  width: 25%;
+  
+}
+.footer-country {
+  font-size: 13px;
+  margin-top: 24px;
+}
+
+
+
+/* ALL MOBILE PHONES  */
+
+@media screen and (max-width:820px){
+  .container2{
+    display: grid;
+  }
+  .gif__video_1{
+    width: 360px;
+  }
+  .container5{
+    display: block;
+  }
+  .kids__image{
+    width: 360px;
+  }
+  .login__Bbtn{
+    margin-left: -20px;
+  }
+  .hero__Title{
+    font-size: 30px;
+    padding-left: -20px;
+  }
+  .section__header__left{
+    font-size: 30px;
+    display: flex;
+  }
+  .section__right2{
+    margin-top: -60px;
+  }
+  .section__left{
+    position: absolute;
+    top: 94%;
+    left: -40px;
+  }
+  .section__header__right{
+    font-size: 30px;
+  }
+  .Netflix__video__gif{
+    width: 270px;
+    position: absolute;
+    top: 89%;
+    left: -10px;
+  }
+  .phone__image__left{
+    width: 400px;
+    margin-left: -150px;
+  }
+  .Phone__image__style{
+    margin-top: -25px;
+  }
+  .phone__image__left{
+    margin-left: 3px;
+    margin-left: -130px;
+    margin-top: 40px;
+  }
+  .small__phone__image{
+    height: 120px;
+    /* margin-left: -120px; */
+  }
+  .small__phone__image__left{
+    width: 0px;
+    height: 100px;
+    margin-left: 10px;
+  }
+  .small__phone__image{
+    width: 330px;
+    margin-left:-80px;
+  }
+  .loading__round__image{
+    margin-left: -0.003px;
+  }
+  .container3{
+    display: grid;
+  }
+  .section__left{
+    padding-top: 330px;
+  }
+  .section__header__left{
+    font-size: 15px;
+  }
+  .section__description__left{
+    font-size: 15px;
+  }
+  .section__header__right{
+    font-size: 15px;
+  }
+  .section__description__right{
+    font-size: 15px;
+  }
+  .section__header__left2{
+    font-size: 15px;
+  }
+  .left__video{
+    margin-top: -50px;
+  }
+  .section__description__left2{
+    font-size: 15px;
+  }
+  .section__header__right__2{
+    font-size: 15px;
+  }
+  .section__right__2{
+    padding-left: 60px;
+    padding-top: 30px;
+  }
+  .faq{
+    font-size: 18px;
+  }
+  .accordion{
+    font-size: 18px;
+  }
+  .site-footer-wrapper{
+    padding-left: 40px;
+  }
+  .Hero__Input{
+    margin-left: -10px;
+  }
+  .email__btn{
+    margin-top: 55px;
+    margin-left: -1px;
+    margin-left: -180px;
+  }
+  
+}
+
+@media only screen and (max-width:400px){
+  .Footer{
+    height: 66vh;
+  }
+  .container6{
+    height: 115vh;
+  }
+  .hero__Title{
+    font-size: 18px;
+  }
+}
+/* (max-width:800px) */
+
+/* All Tablets devices  */
+@media only screen and (max-width:768px) {
+  .container5{
+  }
+}

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.choosePlan__body{
+    background-color: white;
+    height: 100vh;
+}
+.signOut__btn{
+    border: none;
+    font-size: 16px;
+    background-color: transparent;
+}
+.tick__icon{
+    width: 100px;
+    margin: 0px 0px 0px 120px;
+}
+.step__3{
+    font-weight: 400;
+    padding: 0px 0px 10px 120px;
+}
+.row{
+    display: flex;
+    margin: 15px;
+    align-items: center;
+}
+.ticko__icon{
+    width: 100px;
+    height: 30px;
+    margin-right: -30px;
+    margin-left: -20px;
+}
+.ticko__icon__description{
+    font-weight: 300;
+}
+.Plan__section{
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header__plan__title{
+    padding: 0px 0px 0px 30px;
+}
